@@ -1,0 +1,13 @@
+﻿@page
+@model webapp02.Pages.TestModel
+@{
+    ViewData["Title"] = "Test";
+}
+
+<h2>Test</h2>
+
+Some test thingy
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
